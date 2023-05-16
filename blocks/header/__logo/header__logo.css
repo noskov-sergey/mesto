@@ -1,10 +1,22 @@
 .header__logo {
     padding-top: 45px;
     padding-bottom: 41px;
+    width: 142px;
 }
 
 @media screen and (max-width: 760px) {
     .header__logo {
-        margin-top: 31.6px;
+        padding-top: 28px;
+        padding-bottom: 31.8px;
+        padding-left: 27px;
+        width: 103.74px;
+        transition: all .5s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header__logo {
+        padding-left: 27px;
+        transition: all .5s ease-in-out;
     }
 }

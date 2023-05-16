@@ -5,15 +5,9 @@
     margin: auto;
 }
 
-@media screen and (max-width: 760px) {
-    .header {
-        margin-top: 28px;
-        width: 320px;
-    }
-}
-
 @media screen and (max-width: 980px) {
     .header {
-        width: 581px;
+        width: 100%;
+        transition: all .5s ease-in-out;
     }
 }

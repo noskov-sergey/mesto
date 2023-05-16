@@ -1,4 +1,9 @@
-.page {
+body {
     background-color: black;
     margin: 0;
+}
+
+.page {
+    min-width: 320px;
+    margin: auto;
 }
