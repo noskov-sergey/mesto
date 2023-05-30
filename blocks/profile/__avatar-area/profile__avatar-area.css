@@ -1,0 +1,7 @@
+.profile__avatar-area.css {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-radius: 60px;
+    background-color: #000;
+}
