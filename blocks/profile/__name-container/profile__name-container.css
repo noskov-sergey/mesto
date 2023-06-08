@@ -1,11 +1,13 @@
 .profile__name-container {
+    position: relative;
     display: flex;
-    flex-flow: row nowrap;
-    align-items: baseline;
+    align-items: flex-end;
+    text-align: left;
 }
 
 @media screen and (max-width: 600px) {
     .profile__name-container {
         justify-content: center;
+        overflow: visible;
     }
 }

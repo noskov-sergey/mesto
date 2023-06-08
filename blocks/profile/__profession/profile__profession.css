@@ -1,9 +1,9 @@
 .profile__profession {
-    color: #FFFFFF;
     height: 18px;
     font-size: 18px;
     font-weight: 400;
     margin: 16px auto auto auto;
+    transition: all .5s ease-in-out;
 }
 
 @media screen and (max-width: 600px) {

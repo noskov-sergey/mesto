@@ -3,6 +3,8 @@
     height: 24px;
     border: 1px solid white;
     background: transparent url('/images/icon/redact_vector.svg') no-repeat center;
+    align-self: center;
+    transition: all .5s ease-in-out;
 }
 
 @media screen and (max-width: 600px) {
