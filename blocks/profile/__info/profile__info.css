@@ -1,6 +1,21 @@
 .profile__info {
-    border: 1px solid red;
-    width: 336px;
     height: 73px;
-    padding-left: 30px;
+    min-width: 0;
+    max-width: unset;
+    flex: 1 1 auto;
+    padding-right: 30px;
+}
+
+@media screen and (max-width: 838px) {
+    .profile__info {
+        padding-right: 0
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile__info {
+        height: 54px;
+        margin-top: 26px;
+        min-width: 282px;
+    }
 }

@@ -1,5 +1,16 @@
 .profile__profession {
     color: #FFFFFF;
-    position: absolute;
-    margin-bottom: 0px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 16px auto auto auto;
+}
+
+@media screen and (max-width: 600px) {
+    .profile__profession {
+        font-size: 14px;
+        height: 14px;
+        margin: 14px auto 0 auto;
+        text-align: center;
+    }
 }

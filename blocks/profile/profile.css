@@ -12,6 +12,19 @@
     max-width: 800px;
     max-height: 120px;
     margin: 50px auto auto;
-    border: 1px solid red;
     align-items: center;
+}
+
+@media screen and (max-width: 838px) {
+    .profile {
+        margin: 42px 19px 0 19px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+        flex-direction: column;
+        transition: all .5s ease-in-out;
+        max-height: 286px;
+    }
 }
