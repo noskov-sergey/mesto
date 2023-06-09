@@ -9,7 +9,7 @@
 @import url(./__add_button/profile__add_button.css);
 .profile {
     display: flex;
-    max-width: 800px;
+    max-width: 880px;
     max-height: 120px;
     margin: 50px auto auto;
     align-items: center;
