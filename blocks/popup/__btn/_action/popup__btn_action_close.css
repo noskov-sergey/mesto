@@ -7,3 +7,20 @@
     border: none;
     background: url('/images/icon/close_btn.svg') no-repeat center;
 }
+
+.popup__btn_action_close:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__btn_action_close {
+        width: 20px;
+        height: 20px;
+        transition: all .3s ease-in-out;
+        right: 0px;
+        top: -36px;
+        background: url('/images/icon/close_btn_mini.svg') no-repeat center;
+    }
+}

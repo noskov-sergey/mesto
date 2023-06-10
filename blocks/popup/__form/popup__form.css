@@ -9,3 +9,10 @@
     padding-bottom: 36px;
     margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .popup__form {
+        padding: 25px 22px;
+        transition: all .3s ease-in-out;
+    }
+}

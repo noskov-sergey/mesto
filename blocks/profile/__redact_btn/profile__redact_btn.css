@@ -13,3 +13,9 @@
         height: 18px;
     }
 }
+
+.profile__redact_btn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}

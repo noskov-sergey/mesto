@@ -1,3 +1,17 @@
 .popup__heading {
+    flex: 1;
     margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__heading {
+        font-size: 18px;
+        line-height: 22px;
+        transition: all .3s ease-in-out;
+    }
 }

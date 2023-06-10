@@ -79,17 +79,17 @@
 
         <div class="popup popup__container_profile">
             <div class="popup__container">
-                <button class="popup_btn popup__btn_action_close"></button>
+                <button type="button" tabindex="4" class="popup_btn popup__btn_action_close"></button>
                 <form class="popup__form">
                     <h3 class="popup__heading">Редактировать профиль</h3>
 
-                    <label class="popup__field">
+                    <label for="name" class="popup__field">
                         <input tabindex="1" type="text" id="name" name="name" maxlength="40" minlength="2"
                             class="popup__item popup__item_type_name" placeholder="Имя" required>
                         <span class="popup__error" id="name-error">Ошибка</span>
                     </label>
 
-                    <label class="popup__field">
+                    <label for="info" class="popup__field">
                         <input tabindex="2" type="text" id="info" name="info" maxlength="200" minlength="2"
                             class="popup__item popup__item_type_info" placeholder="О себе" required>
                         <span class="popup__error popup__error_submit" id="info-error">Ошибка</span>

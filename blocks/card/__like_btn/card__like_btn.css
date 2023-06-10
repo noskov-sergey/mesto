@@ -6,3 +6,9 @@
     align-self: center;
     transition: all .5s ease-in-out;
 }
+
+.card__like_btn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}

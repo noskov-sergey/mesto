@@ -1,0 +1,5 @@
+@import url(./__error_submit/popup__error_submit.css);
+.popup__error {
+    padding-top: 5px;
+    opacity: 0;
+}

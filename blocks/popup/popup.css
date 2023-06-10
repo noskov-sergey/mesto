@@ -2,14 +2,11 @@
 @import url(./__container_profile/popup__container_profile.css);
 @import url(./__form/popup__form.css);
 @import url(./__btn/popup__btn.css);
-@import url(./__btn_action_submit/popup__btn_action_submit.css);
+@import url(./__btn/_action/popup__btn_action_submit.css);
 @import url(./__error/popup__error.css);
-@import url(./__error_submit/popup__error_submit.css);
 @import url(./__field/popup__field.css);
 @import url(./__heading/popup__heading.css);
 @import url(./__item/popup__item.css);
-@import url(./__item_type_info/popup__item_type_info.css);
-@import url(./__item_type_name/popup__item_type_name.css);
 .popup {
     width: 100%;
     min-height: 100vh;
@@ -23,4 +20,5 @@
     padding: 0;
     margin: 0;
     transition: visibility 0.7s, opacity 0.7s linear;
+    display: none
 }
