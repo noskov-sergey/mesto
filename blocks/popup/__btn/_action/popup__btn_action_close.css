@@ -5,7 +5,7 @@
     width: 32px;
     height: 32px;
     border: none;
-    background: url('../../../../images/icon/close_btn.svg') no-repeat center;
+    background: url('/icons/close_btn.svg') no-repeat center;
 }
 
 .popup__btn_action_close:hover {
@@ -21,6 +21,6 @@
         transition: all .3s ease-in-out;
         right: 0px;
         top: -36px;
-        background: url('../../../../images/icon/close_btn_mini.svg') no-repeat center;
+        background: url('/icons/close_btn_mini.svg') no-repeat center;
     }
 }
