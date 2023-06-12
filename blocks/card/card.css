@@ -2,6 +2,7 @@
 @import url(./__image/card__image.css);
 @import url(./__like_btn/card__like_btn.css);
 @import url(./__paragraph/card__paragraph.css);
+@import url(./__like_btn/_active/card__like_btn_active.css);
 .card {
     background-color: #fff;
     border-radius: 10px;

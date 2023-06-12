@@ -1,0 +1,12 @@
+.card_like_btn_active {
+    width: 24px;
+    height: 19px;
+    border: none;
+    background: url(../../../../icons/liked_btn.svg) no-repeat center;
+    background-size: 22px 19px;
+    align-self: center;
+}
+
+.card_like_btn_active:hover {
+    cursor: pointer;
+}
