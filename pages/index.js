@@ -26,17 +26,22 @@ const initialCards = [
   ];
 
 let redact = document.querySelector('.profile__redact_btn');
-let popup = document.querySelector('.popup');
+let popup_profile = document.querySelector('.popup__container_profile');
+let popup_cards = document.querySelector('.popup__container_cards');
 let popopclose = document.querySelector('.popup__btn_action_close')
 let likebutton = document.querySelector('.card__like_btn')
+let addCards = document.querySelector('.profile__add_button')
 let cardsContainer = document.querySelector('.elements__list')
 
 function OpenPopup() {
-    popup.classList.add('popup_opened');
+  popup_profile.classList.add('popup_opened');
+};
+function OpenPopup_cards() {
+  popup_cards.classList.add('popup_opened');
 };
 
 function ClosePopup() {
-    popup.classList.remove('popup_opened');
+  popup_profile.classList.remove('popup_opened');
 };
 
 redact.addEventListener('click', OpenPopup);
@@ -44,6 +49,8 @@ popopclose.addEventListener('click', ClosePopup);
 likebutton.addEventListener('click', function (evt) {
     evt.target.classList.toggle('card__like_btn_active');
 });
+
+addCards.addEventListener('click', OpenPopup_cards);
 
 let formElement = document.querySelector('.popup__form')
 
@@ -62,9 +69,7 @@ formElement.addEventListener('submit', formSubmitHandler);
 
 function addCard(imgValue, paragraphValue) {
     const cardTemplate = document.querySelector('#cards_template').content;
-    console.log(cardTemplate)
     const cardElement = cardTemplate.querySelector('.card').cloneNode(true)
-    console.log(cardElement)
     cardElement.querySelector('.card__image').src = imgValue
     cardElement.querySelector('.card__paragraph').textContent = paragraphValue
     cardElement.querySelector('.card__like_btn').addEventListener('click', function (evt) {
