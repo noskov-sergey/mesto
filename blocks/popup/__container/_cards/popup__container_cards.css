@@ -1,0 +1,14 @@
+.popup__container_cards {
+    background-size: auto;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__container_cards {
+        margin: 0 19px 0;
+        transition: all .3s ease-in-out;
+    }
+}
