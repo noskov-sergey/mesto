@@ -89,7 +89,8 @@ function formSubmitHandlerCard(evt) {
     evt.preventDefault();
     let nameInput1 = formElement1.querySelector('.popup__item_type_title');
     let jobInput1 = formElement1.querySelector('.popup__item_type_src');
-    addCard(nameInput1.value, jobInput1.value);
+    console.log(nameInput1.value)
+    addCard(jobInput1.value, nameInput1.value);
     nameInput1.value = ''
     jobInput1.value = ''
     popup_cards.classList.remove('popup_opened');
